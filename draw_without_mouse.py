@@ -124,3 +124,6 @@ while True:
             camera.release()
             cv2.destroyAllWindows()
             
+if __name__=='__main__':
+    print('Executed')
+  
