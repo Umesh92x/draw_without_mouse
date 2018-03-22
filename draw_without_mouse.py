@@ -1,3 +1,4 @@
+#Tracking red color of red led using image processing and performing drawing that erase automatically from another point after some time.
 from collections import deque
 import cv2
 import urllib.request
@@ -122,3 +123,4 @@ while True:
         # cleanup the camera and close any open windows
             camera.release()
             cv2.destroyAllWindows()
+            
